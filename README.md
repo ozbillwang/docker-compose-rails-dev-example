@@ -38,6 +38,8 @@ You should clone the project into a conveniently-named directory, as this repo's
 to make typing docker/compose commands tiresome, should the need arise:
 
 ```
+# update config/secrets.yml if running in prod.
+
 git clone https://github.com/vovimayhem/docker-compose-rails-dev-example.git example \
   && cd example \
   && docker-compose up -d web jobs \
